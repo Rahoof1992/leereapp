@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834D7661294775F300EDD356 /* leereappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D7660294775F300EDD356 /* leereappApp.swift */; };
+		834D7663294775F300EDD356 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D7662294775F300EDD356 /* ContentView.swift */; };
+		834D7665294775F400EDD356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D7664294775F400EDD356 /* Assets.xcassets */; };
+		834D7669294775F400EDD356 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834D7668294775F400EDD356 /* Preview Assets.xcassets */; };
+		834D7673294775F400EDD356 /* leereappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D7672294775F400EDD356 /* leereappTests.swift */; };
+		834D767D294775F400EDD356 /* leereappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D767C294775F400EDD356 /* leereappUITests.swift */; };
+		834D767F294775F400EDD356 /* leereappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D767E294775F400EDD356 /* leereappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		834D766F294775F400EDD356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D7655294775F300EDD356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D765C294775F300EDD356;
+			remoteInfo = leereapp;
+		};
+		834D7679294775F400EDD356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 834D7655294775F300EDD356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834D765C294775F300EDD356;
+			remoteInfo = leereapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		834D765D294775F300EDD356 /* leereapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leereapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D7660294775F300EDD356 /* leereappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leereappApp.swift; sourceTree = "<group>"; };
+		834D7662294775F300EDD356 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		834D7664294775F400EDD356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		834D7666294775F400EDD356 /* leereapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = leereapp.entitlements; sourceTree = "<group>"; };
+		834D7668294775F400EDD356 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		834D766E294775F400EDD356 /* leereappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leereappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D7672294775F400EDD356 /* leereappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leereappTests.swift; sourceTree = "<group>"; };
+		834D7678294775F400EDD356 /* leereappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leereappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		834D767C294775F400EDD356 /* leereappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leereappUITests.swift; sourceTree = "<group>"; };
+		834D767E294775F400EDD356 /* leereappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leereappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		834D765A294775F300EDD356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D766B294775F400EDD356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D7675294775F400EDD356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		834D7654294775F300EDD356 = {
+			isa = PBXGroup;
+			children = (
+				834D765F294775F300EDD356 /* leereapp */,
+				834D7671294775F400EDD356 /* leereappTests */,
+				834D767B294775F400EDD356 /* leereappUITests */,
+				834D765E294775F300EDD356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		834D765E294775F300EDD356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				834D765D294775F300EDD356 /* leereapp.app */,
+				834D766E294775F400EDD356 /* leereappTests.xctest */,
+				834D7678294775F400EDD356 /* leereappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		834D765F294775F300EDD356 /* leereapp */ = {
+			isa = PBXGroup;
+			children = (
+				834D7660294775F300EDD356 /* leereappApp.swift */,
+				834D7662294775F300EDD356 /* ContentView.swift */,
+				834D7664294775F400EDD356 /* Assets.xcassets */,
+				834D7666294775F400EDD356 /* leereapp.entitlements */,
+				834D7667294775F400EDD356 /* Preview Content */,
+			);
+			path = leereapp;
+			sourceTree = "<group>";
+		};
+		834D7667294775F400EDD356 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				834D7668294775F400EDD356 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		834D7671294775F400EDD356 /* leereappTests */ = {
+			isa = PBXGroup;
+			children = (
+				834D7672294775F400EDD356 /* leereappTests.swift */,
+			);
+			path = leereappTests;
+			sourceTree = "<group>";
+		};
+		834D767B294775F400EDD356 /* leereappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				834D767C294775F400EDD356 /* leereappUITests.swift */,
+				834D767E294775F400EDD356 /* leereappUITestsLaunchTests.swift */,
+			);
+			path = leereappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		834D765C294775F300EDD356 /* leereapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D7682294775F400EDD356 /* Build configuration list for PBXNativeTarget "leereapp" */;
+			buildPhases = (
+				834D7659294775F300EDD356 /* Sources */,
+				834D765A294775F300EDD356 /* Frameworks */,
+				834D765B294775F300EDD356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leereapp;
+			productName = leereapp;
+			productReference = 834D765D294775F300EDD356 /* leereapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		834D766D294775F400EDD356 /* leereappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D7685294775F400EDD356 /* Build configuration list for PBXNativeTarget "leereappTests" */;
+			buildPhases = (
+				834D766A294775F400EDD356 /* Sources */,
+				834D766B294775F400EDD356 /* Frameworks */,
+				834D766C294775F400EDD356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D7670294775F400EDD356 /* PBXTargetDependency */,
+			);
+			name = leereappTests;
+			productName = leereappTests;
+			productReference = 834D766E294775F400EDD356 /* leereappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		834D7677294775F400EDD356 /* leereappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834D7688294775F400EDD356 /* Build configuration list for PBXNativeTarget "leereappUITests" */;
+			buildPhases = (
+				834D7674294775F400EDD356 /* Sources */,
+				834D7675294775F400EDD356 /* Frameworks */,
+				834D7676294775F400EDD356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				834D767A294775F400EDD356 /* PBXTargetDependency */,
+			);
+			name = leereappUITests;
+			productName = leereappUITests;
+			productReference = 834D7678294775F400EDD356 /* leereappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		834D7655294775F300EDD356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					834D765C294775F300EDD356 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					834D766D294775F400EDD356 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 834D765C294775F300EDD356;
+					};
+					834D7677294775F400EDD356 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 834D765C294775F300EDD356;
+					};
+				};
+			};
+			buildConfigurationList = 834D7658294775F300EDD356 /* Build configuration list for PBXProject "leereapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 834D7654294775F300EDD356;
+			productRefGroup = 834D765E294775F300EDD356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				834D765C294775F300EDD356 /* leereapp */,
+				834D766D294775F400EDD356 /* leereappTests */,
+				834D7677294775F400EDD356 /* leereappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		834D765B294775F300EDD356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D7669294775F400EDD356 /* Preview Assets.xcassets in Resources */,
+				834D7665294775F400EDD356 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D766C294775F400EDD356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D7676294775F400EDD356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		834D7659294775F300EDD356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D7663294775F300EDD356 /* ContentView.swift in Sources */,
+				834D7661294775F300EDD356 /* leereappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D766A294775F400EDD356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D7673294775F400EDD356 /* leereappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834D7674294775F400EDD356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834D767F294775F400EDD356 /* leereappUITestsLaunchTests.swift in Sources */,
+				834D767D294775F400EDD356 /* leereappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		834D7670294775F400EDD356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D765C294775F300EDD356 /* leereapp */;
+			targetProxy = 834D766F294775F400EDD356 /* PBXContainerItemProxy */;
+		};
+		834D767A294775F400EDD356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 834D765C294775F300EDD356 /* leereapp */;
+			targetProxy = 834D7679294775F400EDD356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		834D7680294775F400EDD356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		834D7681294775F400EDD356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		834D7683294775F400EDD356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = leereapp/leereapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"leereapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.syntax.leereapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		834D7684294775F400EDD356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = leereapp/leereapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"leereapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.syntax.leereapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		834D7686294775F400EDD356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.syntax.leereappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leereapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/leereapp";
+			};
+			name = Debug;
+		};
+		834D7687294775F400EDD356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.syntax.leereappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leereapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/leereapp";
+			};
+			name = Release;
+		};
+		834D7689294775F400EDD356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.syntax.leereappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leereapp;
+			};
+			name = Debug;
+		};
+		834D768A294775F400EDD356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.syntax.leereappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = leereapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		834D7658294775F300EDD356 /* Build configuration list for PBXProject "leereapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D7680294775F400EDD356 /* Debug */,
+				834D7681294775F400EDD356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D7682294775F400EDD356 /* Build configuration list for PBXNativeTarget "leereapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D7683294775F400EDD356 /* Debug */,
+				834D7684294775F400EDD356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D7685294775F400EDD356 /* Build configuration list for PBXNativeTarget "leereappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D7686294775F400EDD356 /* Debug */,
+				834D7687294775F400EDD356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		834D7688294775F400EDD356 /* Build configuration list for PBXNativeTarget "leereappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				834D7689294775F400EDD356 /* Debug */,
+				834D768A294775F400EDD356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 834D7655294775F300EDD356 /* Project object */;
+}
